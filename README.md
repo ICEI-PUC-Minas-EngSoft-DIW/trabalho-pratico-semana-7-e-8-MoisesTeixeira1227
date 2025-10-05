@@ -12,32 +12,46 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Moisés Carvalho alves Teixeira
+- Matricula: 1616955
+- Proposta de projeto escolhida: Plataforma de Curso de Programação (CodigoFlix)
+- Breve descrição sobre seu projeto: Um site que busca ajudar pessoas que querem estudar programação
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home-Page](public/homepage.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Detalhes](public/detalhe.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
-]
-```
+const cursos = [
+    {
+        "id": 1,
+        "titulo": "JavaScript Moderno: Guia Completo",
+        "descricao_curta": "Construa aplicações web interativas e dinâmicas do zero com a linguagem que domina o front-end.",
+        "imagem": "https://picsum.photos/id/1/800/450",
+        "instrutor": "Ana Souza",
+        "nivel": "Iniciante a Avançado",
+        "duracao": "25 Horas",
+        "sobre": "Este curso é um mergulho profundo no universo do JavaScript. Partindo dos conceitos fundamentais como variáveis, tipos de dados e estruturas de controle, avançamos para tópicos avançados como Programação Assíncrona (Promises, Async/Await), manipulação do DOM, APIs e ES6+.",
+        "aprendizados": [
+            "Dominar os fundamentos e conceitos avançados do JavaScript.",
+            "Manipular o DOM para criar páginas web dinâmicas.",
+            "Trabalhar com requisições HTTP e APIs externas.",
+            "Entender os paradigmas de programação síncrona e assíncrona."
+        ],
+        "aulas": [
+            "Introdução e Configuração do Ambiente",
+            "Fundamentos: Variáveis, Tipos e Operadores",
+            "Estruturas de Controle: Condicionais e Laços",
+            "Funções e Escopo de Variáveis",
+            "Objetos e Arrays",
+            "// ... (demais aulas do curso)"
+        ]
+    }
+    
+];
